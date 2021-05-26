@@ -11,12 +11,8 @@ public class ATM {
 		Scanner scn = new Scanner(System.in);
 		
 		while(true) {
-			System.out.println("Automated Teller Machine");
-			System.out.println("Choose 1: for Withdraw");
-			System.out.println("Choose 2: for Deposit");
-			System.out.println("Choose 3: for Balance");
-			System.out.println("Choose 4: for Exit");
-			System.out.println("Choose the operation you want to perform: ");
+			System.out.println("Automated Teller Machine\nChoose 1: for Withdraw\nChoose 2: for Deposit\nChoose 3: for Balance\nChoose 4: for Exit\nChoose the operation you want to perform:");
+			
 			
 			int choice = scn.nextInt();
 			
